@@ -25,11 +25,9 @@ namespace WishList
         {
 
           {
-            app.Run(async (context) =>
+            
             if (env.IsDevelopment())
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+           {
                 app.UseDeveloperExceptionPage();
             }
             else
